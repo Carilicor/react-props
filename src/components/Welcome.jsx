@@ -1,8 +1,8 @@
-export default function Welcome(props) {
+export default function Welcome({ name }) {
     //const name = props.name 
     //const { name } = props
-    const { name, greeting } = props
+    //const { name, greeting } = props
     return (
-        <h2>{greeting} {name}.</h2>
+        <h2> Hello there {name}.</h2>
     )
 }
